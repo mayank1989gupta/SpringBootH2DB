@@ -5,7 +5,7 @@
 	
 #To enable the UI console for H2 DB
 	spring.h2.console.enabled=true
-	URL: http://localhost:9005/h2-console
+	URL: http://<IP>:<port>/h2-console
 	
 	JDBC URL: jdbc:h2:mem:testdb
 
