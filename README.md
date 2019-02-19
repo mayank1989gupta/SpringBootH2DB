@@ -23,5 +23,10 @@
         
         Output: Student id 10001 -> {}Student [id=10001, name=ABC XYZ, passport=E1234567]
         Sample data created during start from the SQL files.
+        
+#Build and Run
+	clean: gradle clean
+	build: gradle build
+	run app: gradle bootrun
 
   
