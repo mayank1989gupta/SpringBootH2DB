@@ -34,6 +34,7 @@ public class SpringBootH2DBApplication implements CommandLineRunner {
 		SpringApplication.run(SpringBootH2DBApplication.class, args);
 	}
 
+	//Overriding run() from CommandLineRunner.
 	@Override
 	public void run(String ...args) throws Exception {
         //Logging for specific ID
@@ -57,3 +58,4 @@ public class SpringBootH2DBApplication implements CommandLineRunner {
 		LOGGER.log(Level.INFO, () -> "Records in DB -> " + repository.findAll());
     }
 }
+//End of File
