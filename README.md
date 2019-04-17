@@ -10,7 +10,7 @@ To enable the UI console for H2 DB
 	URL: http://<IP>:<port>/h2-console
 	
 	JDBC URL: jdbc:h2:mem:testdb
-#Defining the schema and set up data
+Defining the schema and set up data
 	
 	The schema and set up/initial data could be defined with the help
 	of sql files in the resources folder.
