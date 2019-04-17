@@ -3,6 +3,8 @@
  */
 package com.demo.boot.h2.db.model;
 
+import org.springframework.boot.autoconfigure.domain.EntityScan;
+
 /**
  * @author MGupta
  *
